@@ -1,0 +1,148 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{hyperref}
+
+\hypersetup{colorlinks=true, urlcolor=blue, linkcolor=blue}
+
+
+\title{Sudoku : Cahier des charges\\\small{Université Montpellier II\\Licence 2\\Projet de fin de semestre}}
+
+
+\renewcommand{\thesection}{\Alph{section}}
+\renewcommand{\baselinestretch}{1.2}
+
+%\author{Stella Zevio}
+
+
+\date{2013-2014}
+
+\begin{document}
+
+\maketitle
+
+\clearpage
+
+\tableofcontents
+
+\clearpage
+
+\listoffigures
+
+\clearpage
+
+\section{Introduction}
+\subsection{Contexte}
+
+\par Ce projet est un projet scolaire sans aucun but lucratif ni coût prévisionnel. De ce fait, les clauses juridiques et législatives pouvant viser un projet tel que le nôtre ne seront pas prises en compte, étant donné le but uniquement pédagogique de notre travail.
+
+\clearpage
+
+\section{Demande}
+\subsection{Description du projet}
+
+\par L'objectif du programme est d'écrire une application en ligne de commande permettant de représenter et de résoudre des sudokus. Les sudokus seront de taille 4x4, 9x9, ou 16x16.
+
+\subsection{Fonctionnalités}
+
+\par Dans les faits, l'application permettra à l'utilisateur de choisir la taille de la grille de jeu (4x4, 9x9 ou 16x16) et initialisera une grille correspondant aux souhaits du joueur. Elle génèrera pseudo-aléatoirement la solution complète respectant les conditions de validité par méthode de backtracking, puis à partir de cette solution la grille de jeu incomplète.
+
+\par L'utilisateur pourra alors jouer en affectant une valeur à une case vide (qu'il pourra sélectionner à partir de ses coordonnées). 
+
+\par Une aide sera proposée, affichant les possibilités d'une case en l'état actuel de la grille. Nous permettrons un nombre limité d'accès à cette aide éventuellement selon le niveau de difficulté choisi. Nous permettrons également un nombre limité d'essais de valeurs (suivant la taille de la grille) afin d'éliminer la possibilité de tester toutes les valeurs possibles pour l'ensemble des cases vides.
+
+\par Selon l'avancée du projet, nous espérons implémenter une interface graphique.
+
+\clearpage
+
+\section{Contraintes}
+\subsection{De coût}
+
+\par Aucune contrainte de coût. Les accès aux diverses documentations n'engendreront aucun frais. 
+
+\par Nous choisirons de toujours utiliser des outils de développement et de gestion de projet gratuits, et dans la mesure du possible, libres.
+
+\subsection{De temps}
+
+\par Ce projet se déroule durant le semestre 4 de la deuxième année de Licence Informatique à l'Université Montpellier II. 
+
+\par L'échéance est fixée à la semaine 22 de l'année 2014. La première réunion a eu lieu lors de la semaine 5 de la même année. Nous avons donc un délai de 17 semaines afin d'achever le projet.
+
+\clearpage
+
+\section{Organisation du projet}
+
+\subsection{Planification}
+
+\noindent
+\begin{minipage}{\linewidth}
+\makebox[\linewidth]{
+  \includegraphics[keepaspectratio=true,width=\textwidth]{images/gantt1.png}}
+\captionof{figure}{Diagramme de Gantt}
+\label{gantt}
+\end{minipage}
+
+\noindent
+\begin{minipage}{\linewidth}
+\makebox[\linewidth]{
+  \includegraphics[scale=0.5]{images/gantt2.png}}
+\captionof{figure}{Diagramme de Gantt}
+\label{gantt}
+\end{minipage}
+
+\noindent
+\begin{minipage}{\linewidth}
+\makebox[\linewidth]{
+  \includegraphics[scale=0.4]{images/taches.png}}
+\captionof{figure}{Tâches}
+\label{tâches}
+\end{minipage}
+
+
+\subsection{Ressources}
+\underline{\textbf{Composition de l'équipe de projet (ressources humaines)}}
+
+\begin{description}
+ \item [] Stella Zevio ( \textbf{Chef de projet}, équipe A )
+ \item [] Adrien Lamant (équipe A : \textbf{Co-responsable})
+ \item [] Abdoulaye Diallo (équipe A)
+ \item [] Charly Maeder (équipe A)
+ \item [] Simon Galand (équipe B : \textbf{Co-responsable})
+ \item [] Redoine El Ouasti (équipe B)
+ \item [] Pierre-Louis Latour (équipe B)
+ \item [] Pierre Ruffin (équipe B)
+ 
+\end{description}
+
+
+\par Le contexte de réalisation du projet va nous contraindre à adopter une démarche particulière. Nous effectuerons des mises en commun régulières au cours de réunion hebdomadaires, en dehors des réunions officielles de projet organisées par notre référent.
+
+\par De plus, nous serons continuellement en lien par le biais de logiciels de type groupware (visioconférences, audioconférences, emails et gestions de documents). Cela nous permettra de contrôler et surveiller l'avancement du projet et de nous répartir efficacement les tâches.
+
+\par Nous utiliserons également un logiciel de gestion de versions.
+
+\par Nous utiliserons nos compétences en algorithmique afin de concevoir notre programme.
+
+\par Nous choisissons le langage de programmation C pour l'implémentation, et nous espérons pouvoir implémenter une interface graphique à l'aide de GTK+.
+
+\par Les différents supports de projet (cahier des charges, présentation, rapport de projet) seront réalisés à l'aide de \LaTeX.
+
+\subsection{Différenciation}
+
+\par Après une phase d'observation et de cohésion du groupe de travail collaboratif, nous avons établi la synthèse du bilan de connaissances et compétences de l'équipe concernant les outils nécessaires à l'achèvement du projet.
+
+\par Les compétences relevées et les choix des membres de l'équipe servent à la répartition des tâches et sont en possession du chef de projet. Elles ont permis de scinder les ressources humaines en deux équipes, afin de répartir efficacement les tâches.
+
+\noindent
+\begin{minipage}{\linewidth}
+\makebox[\linewidth]{
+  \includegraphics[scale=0.6]{images/bilan_de_competences.jpg}}
+\captionof{figure}{Bilan de compétences}
+\label{bilan}
+\end{minipage}
+
+\end{document}

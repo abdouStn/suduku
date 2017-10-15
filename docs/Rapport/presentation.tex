@@ -1,0 +1,155 @@
+\documentclass{beamer}
+ 
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,urlcolor=blue,linkcolor=white}
+
+						 
+\usetheme{Warsaw}
+
+\begin{document}
+
+	\title{Sudoku}
+	\subtitle{Présentation du développement du projet}
+	\author{Équipe Sudoku}	
+	\institute{Université Montpellier II}
+	\date{}
+
+	\maketitle
+
+	% MEMBRES DE L'ÉQUIPE %
+
+	\begin{frame}
+	\frametitle{Équipe}
+		\begin{centering}
+			\href{mailto:abdoulaye.diallo@etud.univ-montp2.fr}{Abdoulaye Diallo}\\ 			\href{mailto:redoine.el-ouasti@etud.univ-montp2.fr}{Redoine El Ouasti}\\
+			Assistant chef de projet : \href{mailto:simon.galand@etud.univ-montp2.fr}{Simon Galand}\\
+			Assistant chef de projet : \href{mailto:adrien.lamant@etud.univ-montp2.fr}{Adrien Lamant}\\
+			\href{mailto:pierre-louis.latour@etud.univ-montp2.fr}{Pierre-Louis Latour}\\
+			\href{mailto:charly.maeder@etud.univ-montp2.fr}{Charly Maeder}\\
+			\href{mailto:pierre.ruffin@etud.univ-montp2.fr}{Pierre Ruffin}\\ 
+			Chef de projet : \href{mailto:stella.zevio@etud.univ-montp2.fr}{Stella Zevio}\\
+		\end{centering}
+	\end{frame}
+
+	% SOMMAIRE %
+	
+	\begin{frame}
+	\frametitle{Sommaire}
+		\tableofcontents
+		   \begin{itemize}
+		   \item Introduction
+		   \item Conception \& Méthodes
+		   \item Développement
+		   \item Conclusion
+   		\end {itemize}
+	\end{frame}
+
+
+	% INTRODUCTION %
+
+	\begin{frame}
+	\frametitle{Introduction}
+	\begin{itemize}
+		\item Génération de grilles de sudoku de taille 4*4, 9*9, 16*16
+		\item Expérience de jeu
+	\end {itemize}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.4\textwidth]{images/grille}
+	\end{figure}
+	\end{frame}
+
+	% CONCEPTION ET METHODES %
+
+	\begin{frame}
+	\frametitle{Conception \& Méthodes}
+
+	\begin{itemize}
+	\item Analyse du sujet
+		\begin{itemize}
+			\item Cahier des charges
+			\begin{itemize}
+				\item Fonctions à implémenter
+				\item Organisation de l'équipe
+			\end{itemize}
+			\item Diagramme de Gantt
+		\end{itemize}
+	\item Outils utilisés
+		\begin{itemize}
+			\item Éditeur de texte (Gedit, Emacs) ou IDE (CodeBlocks, Xcode)
+			\item Langage C
+			\item gcc
+			\item Valgrind
+			\item GTK+
+			\item Doxygen 
+			\item LaTeX
+		\end{itemize}
+	\end{itemize}
+	 	
+	\end{frame}
+
+	% DEVELOPPEMENT %
+
+	\begin{frame}
+	\frametitle{Développement}
+	\framesubtitle{Fonctions implémentées}
+		\begin{itemize}
+			\item Génération des grilles complètes (solution)
+			\item Génération des grilles de jeu
+			\item Jeu
+			\item Aide
+			\item Sauvegarde
+			\item Chargement
+			\item Réinitialisation
+			\item Validation
+			\item Classement
+			\item Solveur
+		\end{itemize}
+
+	\end{frame}
+
+	% BACKTRACKING %
+	
+	\begin{frame}
+	\frametitle{Retour sur trace (\textit{backtracking})}
+		\begin{definition}
+		Algorithme consistant à revenir en arrière sur les décisions prises pour sortir d'un blocage (ici revenir à un état de la grille valide lors d'une erreur de remplissage).
+		\end{definition}
+	\end{frame}
+	
+	% HEURISTIQUES %
+
+	\begin{frame}
+	\frametitle{Heuristiques}
+	\begin{definition}
+        Méthode de calcul en optimisation combinatoire fournissant rapidement une solution réalisable, pas nécessairement optimale.
+   	\end{definition}
+   	\begin{description}
+        	\item[Cross-hatching] supprimer des listes de possibilités d’une sous-grille les valeurs qui sont déjà certaines
+		\item[Lone-number] fixer une valeur à partir du moment où elle n'apparaît que dans une seule liste de possibilités de la sous-grille
+		\item[Naked subset] retirer de certaines listes de possibilités des valeurs appartenant à des N-uplets apparaissant N fois dans d'autres listes (N étant un entier non nul inférieur à la taille de la grille)
+	\end{description}
+	\end{frame}
+
+		
+	% CONCLUSION %
+
+	\begin{frame}
+	\frametitle{Conclusion}
+	\begin{itemize}
+    		\item Outils choisis
+    		\item Choix du sujet
+    		\item Problèmes rencontrés
+    		\item Harmonie du groupe
+    		\item Compétences acquises
+    		\item Ressentis
+    	\end{itemize}
+ 	\end{frame}
+
+\end{document}

@@ -1,0 +1,1307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Sudoku: Référence du fichier fonctions.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Sudoku
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Page&#160;principale</span></a></li>
+      <li><a href="annotated.html"><span>Structures&#160;de&#160;données</span></a></li>
+      <li class="current"><a href="files.html"><span>Fichiers</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Recherche" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Liste&#160;des&#160;fichiers</span></a></li>
+      <li><a href="globals.html"><span>Variables&#160;globale</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tout</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Structures de données</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Fichiers</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Fonctions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Fonctions</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier fonctions.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Sudoku.  
+<a href="#details">Plus de détails...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="fonctions_8h_source.html">fonctions.h</a>&quot;</code><br/>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:a0b81266da1b8545222e362cbe81d1cc5"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a0b81266da1b8545222e362cbe81d1cc5">initTaille</a> ()</td></tr>
+<tr class="memdesc:a0b81266da1b8545222e362cbe81d1cc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "initTaille" initialise la taille de la grille de sudoku.  <a href="#a0b81266da1b8545222e362cbe81d1cc5">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a0b81266da1b8545222e362cbe81d1cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaada9268ea78cd2b1e887947b4c7284e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structcase_grille.html">caseGrille</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#aaada9268ea78cd2b1e887947b4c7284e">initGrille</a> (size_t taille)</td></tr>
+<tr class="memdesc:aaada9268ea78cd2b1e887947b4c7284e"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "initGrille" initialise la grille de sudoku (qui est un tableau a deux dimensions de cases de grille de sudoku), en fonction de la taille passee en parametre.  <a href="#aaada9268ea78cd2b1e887947b4c7284e">Plus de détails...</a><br/></td></tr>
+<tr class="separator:aaada9268ea78cd2b1e887947b4c7284e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa90a480822db350be4eec203e4cbfbf1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#aa90a480822db350be4eec203e4cbfbf1">afficheGrille</a> (<a class="el" href="structcase_grille.html">caseGrille</a> **grille, size_t taille)</td></tr>
+<tr class="memdesc:aa90a480822db350be4eec203e4cbfbf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "afficheGrille" affiche la grille de sudoku passee en parametre.  <a href="#aa90a480822db350be4eec203e4cbfbf1">Plus de détails...</a><br/></td></tr>
+<tr class="separator:aa90a480822db350be4eec203e4cbfbf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcf6893e83fd7ee7e546bd6f801d04ec"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adcf6893e83fd7ee7e546bd6f801d04ec"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>absentSurLigne</b> (uint8_t valeur, <a class="el" href="structcase_grille.html">caseGrille</a> **grille, size_t ligne, size_t taille)</td></tr>
+<tr class="separator:adcf6893e83fd7ee7e546bd6f801d04ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e7537c64c3ed3ca4ff56713d556f253"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4e7537c64c3ed3ca4ff56713d556f253"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>absentSurColonne</b> (uint8_t valeur, <a class="el" href="structcase_grille.html">caseGrille</a> **grille, size_t colonne, size_t taille)</td></tr>
+<tr class="separator:a4e7537c64c3ed3ca4ff56713d556f253"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b15422802fcc16dfc3efeb337cbfe97"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9b15422802fcc16dfc3efeb337cbfe97"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>absentSurRegion</b> (uint8_t valeur, <a class="el" href="structcase_grille.html">caseGrille</a> **grille, size_t ligne, size_t colonne, size_t taille)</td></tr>
+<tr class="separator:a9b15422802fcc16dfc3efeb337cbfe97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4133022360535ceb30269e796f7410e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a4133022360535ceb30269e796f7410e5">echange</a> (uint8_t *a, uint8_t *b)</td></tr>
+<tr class="memdesc:a4133022360535ceb30269e796f7410e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "echange" permet d'echanger deux valeurs.  <a href="#a4133022360535ceb30269e796f7410e5">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a4133022360535ceb30269e796f7410e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaa13047728b853d2e24b5509be4c17f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adaa13047728b853d2e24b5509be4c17f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>melangerTableauValeurs</b> (uint8_t *tableauValeurs, size_t taille)</td></tr>
+<tr class="separator:adaa13047728b853d2e24b5509be4c17f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b79716d17d3bd54a9008043028b3ed1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2b79716d17d3bd54a9008043028b3ed1"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>genererGrilleComplete</b> (<a class="el" href="structcase_grille.html">caseGrille</a> **grille, size_t position, size_t taille, uint8_t *tableauValeurs)</td></tr>
+<tr class="separator:a2b79716d17d3bd54a9008043028b3ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19b68fef37134da00eb2a29f8a7fb9c1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a19b68fef37134da00eb2a29f8a7fb9c1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>genererGrilleJeu</b> (<a class="el" href="structcase_grille.html">caseGrille</a> **grille, size_t taille, uint8_t *tableauValeurs)</td></tr>
+<tr class="separator:a19b68fef37134da00eb2a29f8a7fb9c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5176c0860705d8c150838c05d845e62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#aa5176c0860705d8c150838c05d845e62">jouer</a> (<a class="el" href="structcase_grille.html">caseGrille</a> **grille, size_t taille)</td></tr>
+<tr class="memdesc:aa5176c0860705d8c150838c05d845e62"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "jouer" permet de modifier les valeurs associees aux cases de grille.  <a href="#aa5176c0860705d8c150838c05d845e62">Plus de détails...</a><br/></td></tr>
+<tr class="separator:aa5176c0860705d8c150838c05d845e62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d64ad646502564a4a6ce01746841256"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a6d64ad646502564a4a6ce01746841256">sauvegarde</a> (<a class="el" href="structcase_grille.html">caseGrille</a> **grille, <a class="el" href="structcase_grille.html">caseGrille</a> **grilleSolution, size_t taille, float temps)</td></tr>
+<tr class="memdesc:a6d64ad646502564a4a6ce01746841256"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "sauvegarde" permet de sauvegarder une partie.  <a href="#a6d64ad646502564a4a6ce01746841256">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a6d64ad646502564a4a6ce01746841256"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1816323c34ef0eeae17a4cbe81e88fac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a1816323c34ef0eeae17a4cbe81e88fac">chargerPartie</a> (size_t taille, <a class="el" href="structcase_grille.html">caseGrille</a> **grilleSolution, <a class="el" href="structcase_grille.html">caseGrille</a> **grille, float *temps)</td></tr>
+<tr class="memdesc:a1816323c34ef0eeae17a4cbe81e88fac"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "chargerPartie" permet de charger une partie.  <a href="#a1816323c34ef0eeae17a4cbe81e88fac">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a1816323c34ef0eeae17a4cbe81e88fac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a180ac96304ce80795bfd9c0732ca9750"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a180ac96304ce80795bfd9c0732ca9750">reinitialiserPartie</a> (<a class="el" href="structcase_grille.html">caseGrille</a> **grille, size_t taille)</td></tr>
+<tr class="memdesc:a180ac96304ce80795bfd9c0732ca9750"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "reinitialiserPartie" permet de reinitialiser la grille de jeu comme en debut de partie.  <a href="#a180ac96304ce80795bfd9c0732ca9750">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a180ac96304ce80795bfd9c0732ca9750"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8abc4b77b4472114c6acf84604150468"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a8abc4b77b4472114c6acf84604150468">comparaisonGrilles</a> (<a class="el" href="structcase_grille.html">caseGrille</a> **premiereGrille, <a class="el" href="structcase_grille.html">caseGrille</a> **deuxiemeGrille, size_t taille)</td></tr>
+<tr class="memdesc:a8abc4b77b4472114c6acf84604150468"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "comparaisonGrilles" permet de comparer deux grilles de sudoku.  <a href="#a8abc4b77b4472114c6acf84604150468">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a8abc4b77b4472114c6acf84604150468"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a643fa53e673a4b6c71921027e02155b5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a643fa53e673a4b6c71921027e02155b5"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>estInclus</b> (uint16_t singleton, uint16_t possibilitesCase, size_t taille)</td></tr>
+<tr class="separator:a643fa53e673a4b6c71921027e02155b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1545f888b53803265367d75e054ca5d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#ad1545f888b53803265367d75e054ca5d">crossHatching</a> (<a class="el" href="structcase_grille.html">caseGrille</a> *sousGrille, size_t taille)</td></tr>
+<tr class="memdesc:ad1545f888b53803265367d75e054ca5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "crossHatching" permet d'eliminer un singleton des possibilites des autres cases de sa sous-grille.  <a href="#ad1545f888b53803265367d75e054ca5d">Plus de détails...</a><br/></td></tr>
+<tr class="separator:ad1545f888b53803265367d75e054ca5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab50bc0811daf28142ea4ddec50ff6c2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#aab50bc0811daf28142ea4ddec50ff6c2">loneNumber</a> (<a class="el" href="structcase_grille.html">caseGrille</a> *sousGrille, size_t taille)</td></tr>
+<tr class="memdesc:aab50bc0811daf28142ea4ddec50ff6c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "loneNumber" est une heuristique qui permet de transformer une aide en singleton si une de ces valeurs n'est pas presente dans les autres cases.  <a href="#aab50bc0811daf28142ea4ddec50ff6c2">Plus de détails...</a><br/></td></tr>
+<tr class="separator:aab50bc0811daf28142ea4ddec50ff6c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88ae26f569245d09e9050c5972502670"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a88ae26f569245d09e9050c5972502670">nbValeurs</a> (unsigned short <a class="el" href="fonctions_8h.html#a87bd74c450e67df2084a0a09652ffa16">aide</a>)</td></tr>
+<tr class="memdesc:a88ae26f569245d09e9050c5972502670"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "nbValeurs" permet de connaitre le nombre de bits a 1 pour un unsigned short representant le nombre de valeurs d'une liste de possibilites.  <a href="#a88ae26f569245d09e9050c5972502670">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a88ae26f569245d09e9050c5972502670"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fddf7b258cb4755a1448924086f66ad"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a2fddf7b258cb4755a1448924086f66ad">nbOccurence</a> (<a class="el" href="structcase_grille.html">caseGrille</a> *sousGrille, int indice, size_t taille)</td></tr>
+<tr class="memdesc:a2fddf7b258cb4755a1448924086f66ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "nbOccurence" permet de connaitre le nombre de fois qu'une liste de possibilites apparait. Si elle n'apparait qu'une fois, cela renvoie 0.  <a href="#a2fddf7b258cb4755a1448924086f66ad">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a2fddf7b258cb4755a1448924086f66ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae58643a92e97d0cbb6d008889f9f931f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#ae58643a92e97d0cbb6d008889f9f931f">nakedSubset</a> (<a class="el" href="structcase_grille.html">caseGrille</a> *sousGrille, size_t taille)</td></tr>
+<tr class="memdesc:ae58643a92e97d0cbb6d008889f9f931f"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "nakedSubset" permet de retirer une liste de possibilite si elle repond au Naked Subset, et de renvoyer un booleen temoignant ou non de l'application de cette regle.  <a href="#ae58643a92e97d0cbb6d008889f9f931f">Plus de détails...</a><br/></td></tr>
+<tr class="separator:ae58643a92e97d0cbb6d008889f9f931f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4c30a80fed3996b2791e52ccb247e13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structcase_grille.html">caseGrille</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#ad4c30a80fed3996b2791e52ccb247e13">convertirZoneEnTableau</a> (<a class="el" href="structcase_grille.html">caseGrille</a> **grille, size_t ligne, size_t colonne, size_t taille)</td></tr>
+<tr class="memdesc:ad4c30a80fed3996b2791e52ccb247e13"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "convertirZoneEnTableau" permet de convertir une zone de la grille en tableau.  <a href="#ad4c30a80fed3996b2791e52ccb247e13">Plus de détails...</a><br/></td></tr>
+<tr class="separator:ad4c30a80fed3996b2791e52ccb247e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07ea00dd2517c1fbd03e7578ca295d94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structcase_grille.html">caseGrille</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a07ea00dd2517c1fbd03e7578ca295d94">convertirColonneEnTableau</a> (<a class="el" href="structcase_grille.html">caseGrille</a> **grille, size_t ligne, size_t colonne, size_t taille)</td></tr>
+<tr class="memdesc:a07ea00dd2517c1fbd03e7578ca295d94"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "convertirColonneEnTableau" permet de convertir une colonne de la grille en tableau.  <a href="#a07ea00dd2517c1fbd03e7578ca295d94">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a07ea00dd2517c1fbd03e7578ca295d94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0f69e580c4def8a7293b3e034a45d51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#aa0f69e580c4def8a7293b3e034a45d51">initAide</a> (<a class="el" href="structcase_grille.html">caseGrille</a> **grille, size_t taille)</td></tr>
+<tr class="memdesc:aa0f69e580c4def8a7293b3e034a45d51"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "initAide" permet d'initialiser l'aide en fonction des valeurs des cases.  <a href="#aa0f69e580c4def8a7293b3e034a45d51">Plus de détails...</a><br/></td></tr>
+<tr class="separator:aa0f69e580c4def8a7293b3e034a45d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87bd74c450e67df2084a0a09652ffa16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a87bd74c450e67df2084a0a09652ffa16">aide</a> (<a class="el" href="structcase_grille.html">caseGrille</a> **grille, const size_t taille)</td></tr>
+<tr class="memdesc:a87bd74c450e67df2084a0a09652ffa16"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "aide" permet de creer l'aide pour l'ensemble de la grille.  <a href="#a87bd74c450e67df2084a0a09652ffa16">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a87bd74c450e67df2084a0a09652ffa16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc0b73385ca79f19acfbbf2139b14e76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#abc0b73385ca79f19acfbbf2139b14e76">parcoursGrilleAide</a> (<a class="el" href="structcase_grille.html">caseGrille</a> **grille, size_t taille, size_t ligne, size_t colonne)</td></tr>
+<tr class="memdesc:abc0b73385ca79f19acfbbf2139b14e76"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "parcoursGrilleAide" permet d'appliquer les heuristiques sur l'ensemble de la grille.  <a href="#abc0b73385ca79f19acfbbf2139b14e76">Plus de détails...</a><br/></td></tr>
+<tr class="separator:abc0b73385ca79f19acfbbf2139b14e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a349782ca6e75768b29de121aa17b24f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a349782ca6e75768b29de121aa17b24f4">echangeInt</a> (int *a, int *b)</td></tr>
+<tr class="memdesc:a349782ca6e75768b29de121aa17b24f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "echangeInt" permet d'echanger deux entiers.  <a href="#a349782ca6e75768b29de121aa17b24f4">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a349782ca6e75768b29de121aa17b24f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47f789696d52746baf56f42a52adbfb2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a47f789696d52746baf56f42a52adbfb2">insererPetiteValeur</a> (int *T, char noms[10][30], int val, char nom[30])</td></tr>
+<tr class="memdesc:a47f789696d52746baf56f42a52adbfb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "insererPetiteValeur" permet d'inserer une valeur val si elle est la plus petite parmi tous les elements du tableau T.  <a href="#a47f789696d52746baf56f42a52adbfb2">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a47f789696d52746baf56f42a52adbfb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16f42aae57bab2f7b6bad5b0a2ee3518"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a16f42aae57bab2f7b6bad5b0a2ee3518">demanderNom</a> (char *nom)</td></tr>
+<tr class="memdesc:a16f42aae57bab2f7b6bad5b0a2ee3518"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "demanderNom" permet de demander et de renvoyer une chaine de caracteres.  <a href="#a16f42aae57bab2f7b6bad5b0a2ee3518">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a16f42aae57bab2f7b6bad5b0a2ee3518"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c347e1b161d2d2d84d44b1081b84e08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a1c347e1b161d2d2d84d44b1081b84e08">score</a> (int temps, size_t taille)</td></tr>
+<tr class="memdesc:a1c347e1b161d2d2d84d44b1081b84e08"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "score" permet de verifier s'il y a un nouveau score.  <a href="#a1c347e1b161d2d2d84d44b1081b84e08">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a1c347e1b161d2d2d84d44b1081b84e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4b772e7f80276f0baf18b85b08eda8c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#ab4b772e7f80276f0baf18b85b08eda8c">reinitialiserTop10</a> (size_t taille)</td></tr>
+<tr class="memdesc:ab4b772e7f80276f0baf18b85b08eda8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "reinitialiserTop10" permet de reinitialiser le score dans les fichers Top10_4.txt, Top10_9.txt, Top10_16.txt.  <a href="#ab4b772e7f80276f0baf18b85b08eda8c">Plus de détails...</a><br/></td></tr>
+<tr class="separator:ab4b772e7f80276f0baf18b85b08eda8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a551e116d57beac189134d8137c65a3a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a551e116d57beac189134d8137c65a3a6">afficherTop10</a> (size_t taille)</td></tr>
+<tr class="memdesc:a551e116d57beac189134d8137c65a3a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "afficherTop10" permet d'afficher le Top 10 d'une taille de grille donnee.  <a href="#a551e116d57beac189134d8137c65a3a6">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a551e116d57beac189134d8137c65a3a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3bafc30fe3dba68fe3d3cdffb7decbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#ac3bafc30fe3dba68fe3d3cdffb7decbb">recupeGrille</a> (<a class="el" href="structcase_grille.html">caseGrille</a> **grille, size_t taille)</td></tr>
+<tr class="memdesc:ac3bafc30fe3dba68fe3d3cdffb7decbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "recupeGrille" permet de recuperer une grille ecrite dans un fichier.  <a href="#ac3bafc30fe3dba68fe3d3cdffb7decbb">Plus de détails...</a><br/></td></tr>
+<tr class="separator:ac3bafc30fe3dba68fe3d3cdffb7decbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03c15a24b404d524de4616f3c2dd8cde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a03c15a24b404d524de4616f3c2dd8cde">libereGrille</a> (<a class="el" href="structcase_grille.html">caseGrille</a> **grille, size_t taille)</td></tr>
+<tr class="memdesc:a03c15a24b404d524de4616f3c2dd8cde"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "libereGrille" permet de liberer en memoire les grilles allouees dynamiquement.  <a href="#a03c15a24b404d524de4616f3c2dd8cde">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a03c15a24b404d524de4616f3c2dd8cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a934351828ecd8821cc5d5329fab16201"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#a934351828ecd8821cc5d5329fab16201">purger</a> (void)</td></tr>
+<tr class="memdesc:a934351828ecd8821cc5d5329fab16201"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "purger" permet de vider le buffer.  <a href="#a934351828ecd8821cc5d5329fab16201">Plus de détails...</a><br/></td></tr>
+<tr class="separator:a934351828ecd8821cc5d5329fab16201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed0278099cecdbfddce1759d2c5d866d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#aed0278099cecdbfddce1759d2c5d866d">clean</a> (char *chaine)</td></tr>
+<tr class="memdesc:aed0278099cecdbfddce1759d2c5d866d"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "clean" permet d'eliminer un retour a la ligne a la fin de chaine passee en parametre et vide le buffer.  <a href="#aed0278099cecdbfddce1759d2c5d866d">Plus de détails...</a><br/></td></tr>
+<tr class="separator:aed0278099cecdbfddce1759d2c5d866d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa731903b5c8dbde3a43c08934aecb32d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fonctions_8c.html#aa731903b5c8dbde3a43c08934aecb32d">saisie</a> ()</td></tr>
+<tr class="memdesc:aa731903b5c8dbde3a43c08934aecb32d"><td class="mdescLeft">&#160;</td><td class="mdescRight">La fonction "saisie" permet de renvoyer la valeur saisie par l'utilisateur.  <a href="#aa731903b5c8dbde3a43c08934aecb32d">Plus de détails...</a><br/></td></tr>
+<tr class="separator:aa731903b5c8dbde3a43c08934aecb32d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>Sudoku. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Abdoulaye Diallo, Redoine El Ouasti, Simon Galand, Adrien Lamant, Pierre-Louis Latour, Charly Maeder, Pierre Ruffin, Stella Zevio </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.2 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2014-03-26</dd></dl>
+<p>Sudoku en C : résolution des grilles 4x4, 9x9, 16x16 et jeu. </p>
+</div><h2 class="groupheader">Documentation des fonctions</h2>
+<a class="anchor" id="aa90a480822db350be4eec203e4cbfbf1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void afficheGrille </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structcase_grille.html">caseGrille</a> **&#160;</td>
+          <td class="paramname"><em>grille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>taille</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "afficheGrille" affiche la grille de sudoku passee en parametre. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Abdoulaye Diallo, Stella Zevio</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grille</td><td>- la grille, qui est un tableau a deux dimensions. </td></tr>
+    <tr><td class="paramname">taille</td><td>- la taille de la grille. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a551e116d57beac189134d8137c65a3a6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void afficherTop10 </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>taille</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "afficherTop10" permet d'afficher le Top 10 d'une taille de grille donnee. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Stella Zevio</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">taille</td><td>- la taille de la grille. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a87bd74c450e67df2084a0a09652ffa16"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void aide </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structcase_grille.html">caseGrille</a> **&#160;</td>
+          <td class="paramname"><em>grille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>taille</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "aide" permet de creer l'aide pour l'ensemble de la grille. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Charly Maeder, Pierre Ruffin</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grille</td><td>- la grille de jeu. </td></tr>
+    <tr><td class="paramname">taille</td><td>- la taille de la grille. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a1816323c34ef0eeae17a4cbe81e88fac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool chargerPartie </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>taille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structcase_grille.html">caseGrille</a> **&#160;</td>
+          <td class="paramname"><em>grilleSolution</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structcase_grille.html">caseGrille</a> **&#160;</td>
+          <td class="paramname"><em>grille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *&#160;</td>
+          <td class="paramname"><em>temps</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "chargerPartie" permet de charger une partie. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Abdoulaye Diallo, Adrien Lamant</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">taille</td><td>- la taille des grilles. </td></tr>
+    <tr><td class="paramname">grilleSolution</td><td>- la solution de la grille de jeu (la grille complete). </td></tr>
+    <tr><td class="paramname">grille</td><td>- la grille de jeu. </td></tr>
+    <tr><td class="paramname">temps</td><td>- le temps passe a resoudre le sudoku. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>true si la grille est chargeable </dd>
+<dd>
+false sinon. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aed0278099cecdbfddce1759d2c5d866d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void clean </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>chaine</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "clean" permet d'eliminer un retour a la ligne a la fin de chaine passee en parametre et vide le buffer. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Stella Zevio</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">chaine</td><td>- la chaine passee en parametre. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a8abc4b77b4472114c6acf84604150468"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int comparaisonGrilles </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structcase_grille.html">caseGrille</a> **&#160;</td>
+          <td class="paramname"><em>premiereGrille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structcase_grille.html">caseGrille</a> **&#160;</td>
+          <td class="paramname"><em>deuxiemeGrille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>taille</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "comparaisonGrilles" permet de comparer deux grilles de sudoku. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Redoine El Ouasti</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">premiereGrille</td><td>- l'une des grilles que l'on veut comparer. </td></tr>
+    <tr><td class="paramname">deuxiemeGrille</td><td>- l'autre grille que l'on veut comparer. </td></tr>
+    <tr><td class="paramname">taille</td><td>- la taille des grilles. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>1 si les grilles sont identiques. </dd>
+<dd>
+0 si les grilles sont differentes. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a07ea00dd2517c1fbd03e7578ca295d94"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structcase_grille.html">caseGrille</a> ** convertirColonneEnTableau </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structcase_grille.html">caseGrille</a> **&#160;</td>
+          <td class="paramname"><em>grille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>ligne</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>colonne</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>taille</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "convertirColonneEnTableau" permet de convertir une colonne de la grille en tableau. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Charly Maeder</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grille</td><td>- la grille de jeu. </td></tr>
+    <tr><td class="paramname">ligne</td><td>- la ligne de la grille où se trouve la case où on veut l'aide. </td></tr>
+    <tr><td class="paramname">colonne</td><td>- la colonne de la grille où se trouve la case où on veut l'aide. </td></tr>
+    <tr><td class="paramname">taille</td><td>- la taille de la grille. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>tableau - tableau correspondant a la colonne que l'on voulait convertir. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad4c30a80fed3996b2791e52ccb247e13"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structcase_grille.html">caseGrille</a> ** convertirZoneEnTableau </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structcase_grille.html">caseGrille</a> **&#160;</td>
+          <td class="paramname"><em>grille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>ligne</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>colonne</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>taille</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "convertirZoneEnTableau" permet de convertir une zone de la grille en tableau. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Charly Maeder</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grille</td><td>- la grille de jeu. </td></tr>
+    <tr><td class="paramname">ligne</td><td>- la ligne de la grille où se trouve la case où on veut l'aide. </td></tr>
+    <tr><td class="paramname">colonne</td><td>- la colonne de la grille où se trouve la case où on veut l'aide. </td></tr>
+    <tr><td class="paramname">taille</td><td>- la taille de la grille. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>tableau - tableau correspondant à la zone que l'on voulait convertir. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad1545f888b53803265367d75e054ca5d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool crossHatching </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structcase_grille.html">caseGrille</a> *&#160;</td>
+          <td class="paramname"><em>sousGrille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>taille</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "crossHatching" permet d'eliminer un singleton des possibilites des autres cases de sa sous-grille. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Charly Maeder, Pierre Ruffin, Stella Zevio</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sousGrille</td><td>- la sous-grille a tester. </td></tr>
+    <tr><td class="paramname">taille</td><td>- la taille des grilles. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>true - si cross-hatching s'applique. </dd>
+<dd>
+false - sinon. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a16f42aae57bab2f7b6bad5b0a2ee3518"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void demanderNom </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>nom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "demanderNom" permet de demander et de renvoyer une chaine de caracteres. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Stella Zevio</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nom</td><td>- Une chaine de caractere. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a4133022360535ceb30269e796f7410e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void echange </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "echange" permet d'echanger deux valeurs. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Stella Zevio</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>- la premiere valeur a echanger. </td></tr>
+    <tr><td class="paramname">b</td><td>- la deuxieme valeur a echanger. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a349782ca6e75768b29de121aa17b24f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void echangeInt </td>
+          <td>(</td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "echangeInt" permet d'echanger deux entiers. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Stella Zevio</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a</td><td>- le premier entier que l'on souhaite echanger. </td></tr>
+    <tr><td class="paramname">b</td><td>- le deuxieme entier que l'on souhaite echanger. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa0f69e580c4def8a7293b3e034a45d51"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initAide </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structcase_grille.html">caseGrille</a> **&#160;</td>
+          <td class="paramname"><em>grille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>taille</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "initAide" permet d'initialiser l'aide en fonction des valeurs des cases. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Charly Maeder, Pierre Ruffin</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grille</td><td>- la grille de jeu. </td></tr>
+    <tr><td class="paramname">taille</td><td>- la taille de la grille. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aaada9268ea78cd2b1e887947b4c7284e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structcase_grille.html">caseGrille</a> ** initGrille </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>taille</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "initGrille" initialise la grille de sudoku (qui est un tableau a deux dimensions de cases de grille de sudoku), en fonction de la taille passee en parametre. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Stella Zevio</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">taille</td><td>- la taille de la grille. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>grille - la grille de sudoku, qui est un tableau a deux dimensions. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a0b81266da1b8545222e362cbe81d1cc5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t initTaille </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "initTaille" initialise la taille de la grille de sudoku. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Abdoulaye Diallo, Stella Zevio</dd></dl>
+<dl class="section return"><dt>Renvoie</dt><dd>taille - la taille de la grille de sudoku. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a47f789696d52746baf56f42a52adbfb2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int insererPetiteValeur </td>
+          <td>(</td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>T</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>noms</em>[10][30], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>nom</em>[30]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "insererPetiteValeur" permet d'inserer une valeur val si elle est la plus petite parmi tous les elements du tableau T. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Stella Zevio</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">T</td><td>- un tableau d'entier. </td></tr>
+    <tr><td class="paramname">noms</td><td>- Un tableau de char[30]. </td></tr>
+    <tr><td class="paramname">val</td><td>- Un entier qui est la valeur a inserer. </td></tr>
+    <tr><td class="paramname">nom</td><td>- une chaine de caracteres qui est le nom a inserer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>trouve - la position de la valeur a modifier </dd>
+<dd>
+-1 - s'il n'y a pas de valeur a modifier </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa5176c0860705d8c150838c05d845e62"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int jouer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structcase_grille.html">caseGrille</a> **&#160;</td>
+          <td class="paramname"><em>grille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>taille</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "jouer" permet de modifier les valeurs associees aux cases de grille. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Redoine El Ouasti, Stella Zevio</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grille</td><td>- la grille de jeu. </td></tr>
+    <tr><td class="paramname">taille</td><td>- la taille de la grille. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a03c15a24b404d524de4616f3c2dd8cde"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void libereGrille </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structcase_grille.html">caseGrille</a> **&#160;</td>
+          <td class="paramname"><em>grille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>taille</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "libereGrille" permet de liberer en memoire les grilles allouees dynamiquement. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Redoine El Ouasti, Stella Zevio</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grille</td><td>- la grille a liberer. </td></tr>
+    <tr><td class="paramname">taille</td><td>- La taille de la grille. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aab50bc0811daf28142ea4ddec50ff6c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool loneNumber </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structcase_grille.html">caseGrille</a> *&#160;</td>
+          <td class="paramname"><em>sousGrille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>taille</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "loneNumber" est une heuristique qui permet de transformer une aide en singleton si une de ces valeurs n'est pas presente dans les autres cases. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Charly Maeder, Pierre Ruffin</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sousGrille</td><td>- la sous-grille a tester. </td></tr>
+    <tr><td class="paramname">taille</td><td>- la taille des grilles. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>true - si lone-number s'applique. </dd>
+<dd>
+false - sinon. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ae58643a92e97d0cbb6d008889f9f931f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool nakedSubset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structcase_grille.html">caseGrille</a> *&#160;</td>
+          <td class="paramname"><em>sousGrille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>taille</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "nakedSubset" permet de retirer une liste de possibilite si elle repond au Naked Subset, et de renvoyer un booleen temoignant ou non de l'application de cette regle. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Simon Galand, Pierre-Louis Latour</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">*sousGrille</td><td>- l'ensemble des listes de possibilites. </td></tr>
+    <tr><td class="paramname">taille</td><td>- la taille des grilles. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>true - si naked subset s'applique </dd>
+<dd>
+false - sinon </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a2fddf7b258cb4755a1448924086f66ad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int nbOccurence </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structcase_grille.html">caseGrille</a> *&#160;</td>
+          <td class="paramname"><em>sousGrille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>indice</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>taille</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "nbOccurence" permet de connaitre le nombre de fois qu'une liste de possibilites apparait. Si elle n'apparait qu'une fois, cela renvoie 0. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Simon Galand, Pierre-Louis Latour</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">*sousGrille</td><td>- l'ensemble de listes de possibilites. </td></tr>
+    <tr><td class="paramname">indice</td><td>- l'indice de la case qu'on cherche a denombrer. </td></tr>
+    <tr><td class="paramname">taille</td><td>- la taille des grilles. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>nbocc - le nombre d'occurrences d'une liste de possibilites. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a88ae26f569245d09e9050c5972502670"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int nbValeurs </td>
+          <td>(</td>
+          <td class="paramtype">unsigned short&#160;</td>
+          <td class="paramname"><em>aide</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "nbValeurs" permet de connaitre le nombre de bits a 1 pour un unsigned short representant le nombre de valeurs d'une liste de possibilites. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Simon Galand, Pierre-Louis Latour</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">aide</td><td>- la liste de possibilite a denombrer. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>nbval - le nombre de valeurs d'une liste de possibilites. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abc0b73385ca79f19acfbbf2139b14e76"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void parcoursGrilleAide </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structcase_grille.html">caseGrille</a> **&#160;</td>
+          <td class="paramname"><em>grille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>taille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>ligne</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>colonne</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "parcoursGrilleAide" permet d'appliquer les heuristiques sur l'ensemble de la grille. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Pierre Ruffin, Charly Maeder</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grille</td><td>- la grille de jeu. </td></tr>
+    <tr><td class="paramname">taille</td><td>- la taille de la grille. </td></tr>
+    <tr><td class="paramname">ligne</td><td>- la ligne de la case où on veut l'aide. </td></tr>
+    <tr><td class="paramname">colonne</td><td>- la colonne de la case où on veut l'aide. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a934351828ecd8821cc5d5329fab16201"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void purger </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "purger" permet de vider le buffer. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Stella Zevio </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ac3bafc30fe3dba68fe3d3cdffb7decbb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void recupeGrille </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structcase_grille.html">caseGrille</a> **&#160;</td>
+          <td class="paramname"><em>grille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>taille</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "recupeGrille" permet de recuperer une grille ecrite dans un fichier. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Stella Zevio</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grille</td><td>- la grille que l'on souhaite recuperer. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a180ac96304ce80795bfd9c0732ca9750"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void reinitialiserPartie </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structcase_grille.html">caseGrille</a> **&#160;</td>
+          <td class="paramname"><em>grille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>taille</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "reinitialiserPartie" permet de reinitialiser la grille de jeu comme en debut de partie. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Pierre Ruffin</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grille</td><td>- la grille a modifier. </td></tr>
+    <tr><td class="paramname">taille</td><td>- la taille des grilles. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ab4b772e7f80276f0baf18b85b08eda8c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void reinitialiserTop10 </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>taille</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "reinitialiserTop10" permet de reinitialiser le score dans les fichers Top10_4.txt, Top10_9.txt, Top10_16.txt. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Stella Zevio</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">taille</td><td>- la taille de la grille. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="aa731903b5c8dbde3a43c08934aecb32d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t saisie </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "saisie" permet de renvoyer la valeur saisie par l'utilisateur. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Redoine El Ouasti, Stella Zevio</dd></dl>
+<dl class="section return"><dt>Renvoie</dt><dd>entier - valeur saisie par l'utilisateur. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a6d64ad646502564a4a6ce01746841256"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sauvegarde </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structcase_grille.html">caseGrille</a> **&#160;</td>
+          <td class="paramname"><em>grille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structcase_grille.html">caseGrille</a> **&#160;</td>
+          <td class="paramname"><em>grilleSolution</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>taille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>temps</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "sauvegarde" permet de sauvegarder une partie. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Abdoulaye Diallo, Adrien Lamant</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">grille</td><td>- la grille de jeu. </td></tr>
+    <tr><td class="paramname">grilleSolution</td><td>- la solution de la grille de jeu (la grille complete). </td></tr>
+    <tr><td class="paramname">taille</td><td>- la taille des grilles. </td></tr>
+    <tr><td class="paramname">temps</td><td>- le temps passe a resoudre le sudoku. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a1c347e1b161d2d2d84d44b1081b84e08"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void score </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>temps</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>taille</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>La fonction "score" permet de verifier s'il y a un nouveau score. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Stella Zevio</dd></dl>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">temps</td><td>- le temps passe a resoudre la grille. </td></tr>
+    <tr><td class="paramname">taille</td><td>- la taille de la grille. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Mardi 27 Mai 2014 07:47:29 pour Sudoku par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

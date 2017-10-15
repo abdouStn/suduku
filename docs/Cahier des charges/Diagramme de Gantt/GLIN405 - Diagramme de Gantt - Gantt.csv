@@ -1,0 +1,40 @@
+ID,Nom,Date de début,Date de fin,Durée,Avancée,Responsable,Prédécesseurs,Numéro hiérarchique,Lien internet,Ressources,Notes
+
+132,Début du projet,28/01/14,28/01/14,0,0,,,1,,,
+0,Réunion membres de l'équipe,28/01/14,28/01/14,0,0,,,2,,,"Phase d'observation et de cohésion de l'équipe. Choix du chef de projet et mise en place de l'organisation. (formation des équipes et des outils, notamment groupware)"
+8,Réunion officielle référent,30/01/14,30/01/14,0,0,,,3,,,Réunion officielle en présence du référent.
+12,Cahier des charges,29/01/14,31/01/14,3,0,Stella Zevio,,4,,Stella Zevio,Réalisation du cahier des charges du projet.
+82,Réunion officielle référent,13/02/14,13/02/14,0,0,,,5,,,Réunion officielle en présence du référent. Remise du cahier des charges.
+85,Réunion officielle référent,20/02/14,20/02/14,0,0,,,6,,,
+88,Réunion officielle référent,27/02/14,27/02/14,0,0,,,7,,,
+17,Fonction principale,28/01/14,28/02/14,24,0,Simon Galand,,8,,Pierre-Louis Latour;Pierre Ruffin;Redoine El Ouasti;Simon Galand,Recherche algorithmique et implémentation en C de la fonction principale de l'application.
+92,Réunion officielle référent,06/03/14,06/03/14,0,0,,,9,,,
+95,Réunion officielle référent,13/03/14,13/03/14,0,0,,,10,,,
+98,Réunion officielle référent,20/03/14,20/03/14,0,0,,,11,,,
+102,Réunion officielle référent,27/03/14,27/03/14,0,0,,,12,,,
+105,Réunion officielle référent,03/04/14,03/04/14,0,0,,,13,,,
+108,Réunion officielle référent,10/04/14,10/04/14,0,0,,,14,,,
+23,Fonctions auxiliaires,28/01/14,10/04/14,53,0,Stella Zevio,,15,,Stella Zevio;Abdoulaye Diallo;Charly Maeder;Adrien Lamant,Recherche algorithmique et implémentation en C des fonctions auxiliaires de l'application.
+112,Réunion officielle référent,17/04/14,17/04/14,0,0,,,16,,,
+115,Réunion officielle référent,24/04/14,24/04/14,0,0,,,17,,,
+118,Réunion officielle référent,01/05/14,01/05/14,0,0,,,18,,,
+122,Réunion officielle référent,08/05/14,08/05/14,0,0,,,19,,,
+63,Interface graphique,10/04/14,09/05/14,22,0,Stella Zevio,,20,,Simon Galand;Adrien Lamant;Abdoulaye Diallo;Stella Zevio,Implémentation de l'interface graphique (C++) et portage éventuel du code.
+125,Réunion officielle référent,15/05/14,15/05/14,0,0,,,21,,,
+67,Support présentation,12/05/14,15/05/14,4,0,Stella Zevio,,22,,Stella Zevio;Pierre-Louis Latour;Pierre Ruffin,Réalisation du support de soutenance du projet. (class Beamer LaTeX)
+128,Réunion officielle référent,22/05/14,22/05/14,0,0,,,23,,,
+74,Rapport projet,03/02/14,22/05/14,79,0,Stella Zevio,,24,,Stella Zevio;Adrien Lamant;Abdoulaye Diallo;Redoine El Ouasti;Charly Maeder;Pierre Ruffin;Pierre-Louis Latour;Simon Galand,Réalisation du rapport de projet sous LaTeX.
+131,Réunion officielle référent,29/05/14,29/05/14,0,0,,,25,,,
+21,Echéance,30/05/14,30/05/14,0,0,,,26,,,Date de la soutenance.
+
+
+ID,Nom,Courriel,Téléphone,Rôle par défaut
+
+0,Stella Zevio,stella.zevio@etud.univ-montp2.fr,0658881700,Default:1
+5,Abdoulaye Diallo,abdoulaye.diallo@etud.univ-montp2.fr,0676020958,2
+4,Redoine El Ouasti,redoine.el-ouasti@etud.univ-montp2.fr,0649558900,3
+1,Simon Galand,simon.galand@etud.univ-montp2.fr,0699224579,3
+3,Adrien Lamant,adrien.lamant@etud.univ-montp2.fr,0676170149,2
+6,Pierre-Louis Latour,pierre-louis.latour@etud.univ-montp2.fr,0625161374,3
+7,Charly Maeder,charly.maeder@etud.univ-montp2.fr,0614216031,2
+2,Pierre Ruffin,pierre.ruffin@etud.univ-montp2.fr,0672108038,3
